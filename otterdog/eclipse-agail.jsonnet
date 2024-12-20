@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-agail') {
+orgs.newOrg('iot.agail', 'eclipse-agail') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
